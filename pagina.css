@@ -1,0 +1,30 @@
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    border:  black;
+    background: #2000FF; 
+    margin: 0;
+    padding: 0;
+    color: #000000 
+
+}
+td{color: #0093FF}
+
+body{
+    background-color: #037FFF
+
+}
+#div{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.perfil{
+    margin: left;
+    position: relative;
+    margin: 5px;
+}
+#altura{
+    height: 10px;
+    width: 0x;
+}
