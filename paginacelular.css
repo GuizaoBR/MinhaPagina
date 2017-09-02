@@ -1,6 +1,5 @@
 .tabela {
     width: 100%;
-    border-collapse: collapse;
     border:  black;
     background: #2000FF; 
     margin: 0;
@@ -12,15 +11,9 @@ td{color: #0093FF}
 
 body{
     background-color: #037FFF
-
-
-}
-.perfil{
-   
-    position: relative;
-    margin: 5px;
-}
-#altura{
-    height: 10px;
-    position: relative;
-}
+}    
+ 
+    #altura{
+        min-height: 150px;
+        position: relative;
+    }
