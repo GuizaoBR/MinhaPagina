@@ -1,26 +1,113 @@
-.tabela {
-    width: 100%;
-    border-collapse: collapse;
-    border:  black;
-    background: #2000FF; 
-    margin: 0;
-    padding: 0;
-    color: #000000 
+img, iframe, object, embed, video{
+    height: auto;
+    max-width: 100%;
 
 }
-td{color: #0093FF}
 
 body{
     background-color: #037FFF
+}
+
+a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FFFFFF;
+    
+}
+
+.tabela {
+    width: 100%;
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
+    background-color: #2000FF;
+}
+
+@media screen and (min-width:1081px) {
+
+    .texto {
+        text-align: center;
+        position: relative;
+        margin-left: 355px;
+        float: left;
+        height: 0px;
+    }
 
 
+    .informacoes {
+        margin-left: 5px;
+        float: left;
+        position: relative;
+        height: 0px;
+        left: 160px;
+    }
+
+    .menu {
+        position: relative;
+    }
+
+    .rodapepos {
+        margin-top: 260px;
+        position: relative;
+    }
+
+    .rodape {
+        width: 19.54612005856515%; /*267 / 1366(resolução do meu computador)*/
+        border-width: medium;
+        border-style: solid;
+        border-color: black;
+        background-color: #2000FF;
+        position: absolute;
+        left: 40%;
+    }
+
+    .imagem {
+        float: left;
+        height: 0px;
+        position: relative;
+    }
+
+    .separador {
+        top: 250px;
+        position: relative;
+    }
 }
-.perfil{
-   
-    position: relative;
-    margin: 5px;
-}
-#altura{
-    height: 10px;
-    position: relative;
-}
+
+    @media screen and (max-width:1080px) {
+
+        .tabela {
+            width: 100%;
+            border-width: medium;
+            border-style: solid;
+            border-color: black;
+            background-color: #2000FF;
+        }
+
+        .texto {
+            position: relative;
+            margin-left: 0px;
+            text-align: center;
+            height: auto;
+        }
+
+
+        .imagem {
+            text-align: center;
+            height: auto;
+            position: relative;
+        }
+
+        .informacoes {
+            text-align: center;
+            position: relative;
+            height: auto;
+        }
+        .rodape {
+            width: 25%;
+            border-width: medium;
+            border-style: solid;
+            border-color: black;
+            background-color: #2000FF;
+            position: relative;
+            left: 40%;
+        }
+    }
