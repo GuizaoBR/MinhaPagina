@@ -11,6 +11,8 @@ body{
 a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #FFFFFF;
+    text-decoration: none;
+    
     
 }
 
@@ -109,5 +111,7 @@ a{
             background-color: #2000FF;
             position: relative;
             left: 40%;
+          
         }
     }
+    
