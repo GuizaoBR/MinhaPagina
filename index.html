@@ -3,54 +3,75 @@
     <head>
         <meta charset="utf-8">
         <meta name ="viewport" content="width-device-width, initial-scale = 1, maximum-scale = 1">
-        <title>Guilherme</title>
+        <script type="text/javascript" src="menu_cel.js" charset="utf8"></script>
+         <title>Guilherme</title>
         <link href="pagina.css" rel="stylesheet">
-        
     </head>
-    <body>
-        <div class= "Menu">
-            <header>
-                <table class = tabela>
-                    <td><a href = "https://sites.google.com/view/pdrq/p%C3%A1gina-inicial" target="Projeto"><center><font color ="#ffffff"><strong>Meus projetos</td>
-                </table>
-            </header>    
-        </div>
-    </br>           
-        <div class="imagem">
-            <img src = "https://scontent.fcgh11-1.fna.fbcdn.net/v/t1.0-1/p160x160/18222123_1283703685076397_1329214184849182383_n.jpg?oh=aa0ac19552a5960ac5338fa46801afcd&oe=5A211541" >
-        </div>
-        <div class="informacoes">       
-        Guilherme Germano Silva</br>
-        21/03/1999</br>
-        Nasceu em SBC</br>
-        Mora em Itupeva-SP</br>
-        Estuda na faculdade Impacta</br>
-        <a href="mailto:gui.germano.silva@gmail.com">gui.germano.silva@gmail.com</a>
-        </div>
-        <div class="texto">
-        <p>Minha paixão por programação começou quando eu visitei uma feira de profissões em 2015.   </br>
-                   Depois disso eu comecei a estudar sozinho um pouco de java para começar a fazer programas </br>
-                   para android, mas acabei desviando o caminho e comecei a trazer tutoriais de modificações </br>
-                   para os celulares da Quantum no começo de 2016 no qual infelizmente tive que parar em 2017</br>
-                   por conta da faculdade para me aprofundar no mundo de desenvolvimento.</p>
-       <p>Eu trabalho como auxilar financeiro na empresa ASOFT TECNOLOGIA EM SISTEMAS LTDA mas estou </br>
-        a procura de um estágio na área. Estou aprendendo na faculdade python, html com css e java script,tenho</br>
-        um conhecimento básico de java com o android studio.</p>
-        </div>
-        <div class="separador">
-            <hr>
-        </div>
-       <div class="rodapepos">
-        <h1><center>Onde me Encontrar</h1>
-            <footer class="rodape">
-                <table>    
-                    <a href="http://telegram.me/GuizaoTech" target="Telegram"><center>Telegram</a>
-                    <a href="https://github.com/GuizaoBR" target="GitHub">GitHub</a>
-                    <a href="https://facebook.com/guilherme.germanosilva" target="Facebook">Facebook</a>
-                    <a href="https://forum.xda-developers.com/member.php?u=6162965" target="XDA">XDA</center></a>
-                </table>    
-            </footer>
-        </div>
-    </div>
-    </body>   
+        <body>
+            <div class="main">
+                <div class="divbtn">
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+                </div>
+                <div id="MenuCelular" class="MenuCelular">
+                    <header>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="http://telegram.me/GuizaoTech" target="Telegram">Telegram</a>
+                        <a href="https://github.com/GuizaoBR" target="GitHub">GitHub</a>
+                        <a href="https://facebook.com/guilherme.germanosilva" target="Facebook">Facebook</a>
+                        <a href="https://forum.xda-developers.com/member.php?u=6162965" target="XDA">XDA</a>
+                        <a href="https://sites.google.com/view/pdrq/p%C3%A1gina-inicial" target="Projeto">Meus projetos</a>
+                    </header>
+                </div>
+                <div class="Menu">
+                    <header>
+                        <table class=tabela>
+                            <td><a href="https://sites.google.com/view/pdrq/p%C3%A1gina-inicial" target="Projeto"><center><font color="#ffffff"><strong>Meus projetos</td>
+                        </table>
+                    </header>
+                </div>
+                </br>
+                <div class="imagem">
+                    <img src="https://scontent.fcgh11-1.fna.fbcdn.net/v/t1.0-1/p160x160/18222123_1283703685076397_1329214184849182383_n.jpg?oh=aa0ac19552a5960ac5338fa46801afcd&oe=5A211541">
+                </div>
+                <div class="informacoes">
+                    Guilherme Germano Silva</br>
+                    21/03/1999</br>
+                    Nasceu em SBC</br>
+                    Mora em Itupeva-SP</br>
+                    Estuda na faculdade Impacta</br>
+                    <a href="mailto:gui.germano.silva@gmail.com">gui.germano.silva@gmail.com</a>
+                </div>
+                <div class="texto">
+                    <p>
+                        Minha paixão por programação começou quando eu visitei uma feira de profissões em 2015.   </br>
+                        Depois disso eu comecei a estudar sozinho um pouco de java para começar a fazer programas </br>
+                        para android, mas acabei desviando o caminho e comecei a trazer tutoriais de modificações </br >
+                        para os celulares da Quantum no começo de 2016 no qual infelizmente tive que parar em 2017</br >
+                        por conta da faculdade para me aprofundar no mundo de desenvolvimento.
+                    </p>
+                    <p>
+                        Eu trabalho como auxilar financeiro na empresa ASOFT TECNOLOGIA EM SISTEMAS LTDA mas estou </br>
+                        a procura de um estágio na área.Estou aprendendo na faculdade python, html com css e java script, tenho</br>
+                        um conhecimento básico de java com o android studio.
+                    </p>
+                </div>
+                <div class="separador">
+                    <hr>
+                </div>
+                <span class="ocultar">
+                    <div class="rodapepos">
+                        <h1><center>Onde me Encontrar</h1>
+                        <footer class="rodape">
+                            <table>
+                                <a href="http://telegram.me/GuizaoTech" target="Telegram"><center>Telegram</a>
+                                <a href="https://github.com/GuizaoBR" target="GitHub">GitHub</a>
+                                <a href="https://facebook.com/guilherme.germanosilva" target="Facebook">Facebook</a>
+                                <a href="https://forum.xda-developers.com/member.php?u=6162965" target="XDA">XDA</center></a>
+                            </table>
+                        </footer>
+                </span>
+                </div>
+            </div>
+            </body>
+    
 </html>   

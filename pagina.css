@@ -13,7 +13,6 @@ a{
     color: #FFFFFF;
     text-decoration: none;
     
-    
 }
 
 .tabela {
@@ -23,6 +22,8 @@ a{
     border-color: black;
     background-color: #2000FF;
 }
+
+
 
 @media screen and (min-width:1081px) {
 
@@ -45,10 +46,11 @@ a{
 
     .menu {
         position: relative;
+        z-index: 1;
     }
 
     .rodapepos {
-        margin-top: 260px;
+        margin-top: 210px;
         position: relative;
     }
 
@@ -69,49 +71,112 @@ a{
     }
 
     .separador {
-        top: 250px;
+        top: 200px;
         position: relative;
+    }
+    .MenuCelular {
+        height: 100%; /* 100% Full-height */
+        width: 0px; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        visibility: collapse;
+   
+    }
+    .divbtn {
+        visibility: collapse;
+        height:0px
+    }
+   
+
+    .ocultar {
+        visibility: visible
     }
 }
 
-    @media screen and (max-width:1080px) {
+@media screen and (max-width:1080px) {
 
-        .tabela {
-            width: 100%;
-            border-width: medium;
-            border-style: solid;
-            border-color: black;
-            background-color: #2000FF;
-        }
-
-        .texto {
-            position: relative;
-            margin-left: 0px;
-            text-align: center;
-            height: auto;
-        }
-
-
-        .imagem {
-            text-align: center;
-            height: auto;
-            position: relative;
-        }
-
-        .informacoes {
-            text-align: center;
-            position: relative;
-            height: auto;
-        }
-        .rodape {
-            width: 25%;
-            border-width: medium;
-            border-style: solid;
-            border-color: black;
-            background-color: #2000FF;
-            position: relative;
-            left: 40%;
-          
-        }
+    .tabela {
+        width: 100%;
+        border-width: medium;
+        border-style: solid;
+        border-color: black;
+        background-color: #2000FF;
+        visibility: collapse;
     }
+
+    .texto {
+        position: relative;
+        margin-left: 0px;
+        text-align: center;
+        height: auto;
+    }
+
+
+    .imagem {
+        text-align: center;
+        height: auto;
+        position: relative;
+    }
+
+    .informacoes {
+        text-align: center;
+        position: relative;
+        height: auto;
+    }
+
+    .rodape {
+        width: 25%;
+        border-width: medium;
+        border-style: solid;
+        border-color: black;
+        background-color: #2000FF;
+        position: relative;
+        left: 40%;
+        visibility: collapse;
+    }
+
+
+    .MenuCelular {
+        height: 100%; /* 100% Full-height */
+        width: 0px; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #00174d;
+        overflow-x: hidden; /* Disable horizontal scroll */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+        .MenuCelular a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            display: block;
+            transition: 0.3s;
+        }
+
+
+
+        .MenuCelular .closebtn {
+            position: absolute;
+            top: -10px;
+            right: 0px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+    .ocultar {
+        visibility: hidden
+    }
+
+    .separador {
+        visibility: hidden
+    }
+}
     
