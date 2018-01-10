@@ -1,12 +1,21 @@
 img, iframe, object, embed, video{
     height: auto;
     max-width: 100%;
+    width:auto;
 
 }
-
-body{
-    background-color: #037FFF
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #037FFF;
 }
+
+main {
+    flex: 1 0 auto;
+}
+      
+
 
 a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -24,25 +33,63 @@ a{
 }
 
 
+.texto{
+    position:relative;
+    text-align:center;
+    height:auto
+    
+   
+}
+.informacoes {
 
-@media screen and (min-width:1081px) {
+    position: relative;
+    height: auto;
+    float:left
 
-    .texto {
-        text-align: center;
-        position: relative;
-        margin-left: 355px;
-        float: left;
-        height: 0px;
+ }
+.imagem{
+    height:auto;
+    float:left
+}
+
+@media screen and (min-width:1000px){
+    .texto{
+        bottom:150px;
+        margin-left:320px;
+        margin-top:100px
     }
+
+    .card-pos{
+        left:0px;
+        bottom:100px;
+        position:relative;
+        text-align:center;
+        
+    }
+    
+}
+
+
+@media screen and (min-width:997px)  and (max-width:999px){
+    .texto {
+        padding-top:10px;
+        bottom:0
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:996px){
 
 
     .informacoes {
-        margin-left: 5px;
-        float: left;
+        float:left;
         position: relative;
         height: 0px;
-        left: 160px;
     }
+
+   
+
+
+    
 
     .menu {
         position: relative;
@@ -98,85 +145,105 @@ a{
     }
 }
 
-@media screen and (max-width:1080px) {
 
-    .tabela {
-        width: 100%;
-        border-width: medium;
-        border-style: solid;
-        border-color: black;
-        background-color: #2000FF;
-        visibility: collapse;
-    }
-
+@media screen and (min-width:889px) and (max-width:992px) {
     .texto {
-        position: relative;
-        margin-left: 0px;
-        text-align: center;
-        height: auto;
+        padding-left: 280px;
+        margin-left: 100px;
+        width:auto
     }
+    
+       
+  
 
 
-    .imagem {
-        text-align: center;
-        height: auto;
-        position: relative;
-    }
-
-    .informacoes {
-        text-align: center;
-        position: relative;
-        height: auto;
-    }
-
-    .rodape {
-        width: 25%;
-        border-width: medium;
-        border-style: solid;
-        border-color: black;
-        background-color: #2000FF;
-        position: relative;
-        left: 40%;
-        visibility: collapse;
-    }
-
-
-    .MenuCelular {
-        height: 100%; /* 100% Full-height */
-        width: 0px; /* 0 width - change this with JavaScript */
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Stay on top */
-        top: 0;
-        left: 0;
-        background-color: #00174d;
-        overflow-x: hidden; /* Disable horizontal scroll */
-        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    }
-
-        .MenuCelular a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 25px;
-            display: block;
-            transition: 0.3s;
-        }
-
-
-
-        .MenuCelular .closebtn {
-            position: absolute;
-            top: -10px;
-            right: 0px;
-            font-size: 36px;
-            margin-left: 50px;
-        }
-
-    .ocultar {
-        visibility: hidden
-    }
-
-    .separador {
-        visibility: hidden
-    }
 }
+@media screen and (min-width:394px) and (max-width:888px) {
+    .texto {
+        margin-top: 150px
+    }
+
+}
+
+
+
+    @media screen and (max-width:393px) {
+
+        .tabela {
+            width: 100%;
+            border-width: medium;
+            border-style: solid;
+            border-color: black;
+            background-color: #2000FF;
+            visibility: collapse;
+        }
+
+
+        .texto {
+            margin-top: 300px
+        }
+
+        .imagem {
+            text-align: center;
+            height: auto;
+            position: relative;
+        }
+
+        .informacoes {
+            padding-left: 30px;
+            text-align: center;
+            position: relative;
+            height: auto;
+        }
+
+        .rodape {
+            width: 25%;
+            border-width: medium;
+            border-style: solid;
+            border-color: black;
+            background-color: #2000FF;
+            position: relative;
+            left: 40%;
+            visibility: collapse;
+        }
+
+
+        .MenuCelular {
+            height: 100%; /* 100% Full-height */
+            width: 0px; /* 0 width - change this with JavaScript */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Stay on top */
+            top: 0;
+            left: 0;
+            background-color: #00174d;
+            overflow-x: hidden; /* Disable horizontal scroll */
+            transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        }
+
+            .MenuCelular a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                display: block;
+                transition: 0.3s;
+            }
+
+
+
+            .MenuCelular .closebtn {
+                position: absolute;
+                top: -10px;
+                right: 0px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+        .ocultar {
+            visibility: hidden
+        }
+
+        .separador {
+            visibility: hidden
+        }
+    }
     
