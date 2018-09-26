@@ -1,0 +1,32 @@
+.imagem
+{
+   margin-left: 3%
+}
+
+.informacoesBloco
+{
+    margin-left: 2%;
+    font-weight: bolder;
+    color: white;
+}
+
+.info
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.card-title
+{
+    font-weight: bolder;
+}
+
+.card-action
+{
+    width: 100%
+}
+
+.bolder
+{
+    font-weight: bolder
+}

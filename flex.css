@@ -1,0 +1,23 @@
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.metade
+{
+    flex-basis: 50%
+}
+.completo
+{
+    flex-basis: 100%
+}
+.nada
+{
+    flex-basis: 0
+}
+.centro
+{
+    margin-left: 15%;
+    
+}
