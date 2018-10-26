@@ -16,9 +16,11 @@
     margin-bottom: 2%;
 
 }
+
+
 .card-title
 {
-    font-weight: bolder;
+    display: flex
 }
 
 .card-action
@@ -30,3 +32,6 @@
 {
     font-weight: bolder
 }
+
+
+
